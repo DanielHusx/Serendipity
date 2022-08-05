@@ -1,12 +1,14 @@
-# Serendipity
-**Serendipity** 是集自动打包上传、描述文件管理、崩溃日志解析、符号表解析功能为一体的mac应用
+# ![logo](Capture/logo.png)Serendipity
+**Serendipity** 是集自动打包上传、描述文件管理、崩溃日志解析、符号表解析功能为一体的**mac应用**
 
-代码主要用SwiftUI编写、纯本地工具管理类应用（说真的，SwiftUI资料是真的少）
+代码主要用SwiftUI编写、纯本地工具管理类应用
+
 
 
 #### 环境支持
 
 - macOS 11.0+
+- **注意：请务必打开`完全磁盘访问权限`** ，否则管理器无法自动搜索相关文件
 
 
 
