@@ -77,6 +77,19 @@
 
 ![config_distribution](Capture/config_distribution.jpg)
 
+
+### TODO:
+##### 2022-08-08
+- [ ] 适配xcconfig的情况
+- [ ] 优化描述文件匹配方案
+- [ ] 任务进度管理器
+- [ ] 快捷键管理器
+- [ ] entitlements编辑器
+- [ ] 蒲公英应用列表
+- [ ] 错误描述中文化
+- [ ] 上传完成后通知或者脚本运行
+
+
 ### NOTE:
 
 ##### 2022-08-05
