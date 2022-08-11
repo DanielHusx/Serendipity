@@ -22,6 +22,9 @@
 - 符号表管理器会自动搜索全盘`.dSYM`、`.xcarchive`文件内的可执行文件，解析其架构、UUID等内容以供崩溃日志符号化
 
 
+### 相关代码
+- [ScriptSDK](https://github.com/DanielHusx/ScriptSDK): 封装脚本对象
+
 
 ### 主页面
 
