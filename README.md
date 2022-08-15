@@ -22,6 +22,9 @@
 - 符号表管理器会自动搜索全盘`.dSYM`、`.xcarchive`文件内的可执行文件，解析其架构、UUID等内容以供崩溃日志符号化
 
 
+### 相关代码
+- [ScriptSDK](https://github.com/DanielHusx/ScriptSDK): 封装脚本对象
+
 
 ### 主页面
 
@@ -76,6 +79,19 @@
 ![config_engineer](Capture/config_engineer.jpg)
 
 ![config_distribution](Capture/config_distribution.jpg)
+
+
+### TODO:
+##### 2022-08-08
+- [ ] 适配xcconfig的情况
+- [ ] 优化描述文件匹配方案
+- [ ] 任务进度管理器
+- [ ] 快捷键管理器
+- [ ] entitlements编辑器
+- [ ] 蒲公英应用列表
+- [ ] 错误描述中文化
+- [ ] 上传完成后通知或者脚本运行
+
 
 ### NOTE:
 
