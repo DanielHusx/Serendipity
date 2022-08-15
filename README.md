@@ -24,6 +24,7 @@
 
 ### 相关代码
 - [ScriptSDK](https://github.com/DanielHusx/ScriptSDK): 封装脚本对象
+- [WindowManager](https://github.com/DanielHusx/WindowManagerDemo): macOS SwiftUI管理Window
 
 
 ### 主页面
