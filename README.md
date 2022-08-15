@@ -79,11 +79,19 @@
 
 ### NOTE:
 
-##### 2022-08-05
+##### 2022-88-15 v1.0.1
+- 新增因正确理解Scheme与Target关系后，解析Xcscheme以适配多Scheme多Configuration的项目～
+- 新增`archive`前是否`clean`的选项
+- 新增日志输出清空
+
+- 修复复杂项目在执行`xcodebuild archive`命令时可能抛出`PhaseScriptExecution`异常
+- 修复解析ipa文件时第一次必然反馈错误的问题
+
+##### 2022-08-05 v1.0
 
 - 修复多Target/Configuration工程配置判断异常导致无法导出
 
-##### 2022-08-04
+##### 2022-08-04 v1.0
 
 - 七夕发布第一个版本~ 希望会有人喜欢吧
 
