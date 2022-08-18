@@ -25,7 +25,7 @@
 ### 相关代码
 - [ScriptSDK](https://github.com/DanielHusx/ScriptSDK): 封装脚本对象
 - [WindowManager](https://github.com/DanielHusx/WindowManagerDemo): macOS SwiftUI管理Window
-
+- [PathScrollView](https://github.com/DanielHusx/PathScrollView): macOS SwiftUI鼠标滚动文字
 
 ### 主页面
 
