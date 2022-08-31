@@ -20,7 +20,7 @@
 - 崩溃日志支持创建、打开与导入识别`.log`, `.crash`, `.ips`文件
 - 崩溃日志解析支持友盟、Apple Crash格式
 - 符号表管理器会自动搜索全盘`.dSYM`、`.xcarchive`文件内的可执行文件，解析其架构、UUID等内容以供崩溃日志符号化
-
+- 应用发布列表管理器支持`Pgyer`, `Fir.im`
 
 ### 相关代码
 - [ScriptSDK](https://github.com/DanielHusx/ScriptSDK): 封装脚本对象
@@ -67,6 +67,16 @@
 
 ![创建日志](Capture/crash_new.jpg)
 
+
+
+### 应用发布管理
+
+- 管理Pgyer, Fir.im发布的应用列表
+
+![发布](Capture/published.png)
+
+
+
 ### 自动打包上传
 
 - 添加任务支持文件夹, `.git`, `Podfile`, `.xcworkspace`, `.xcodeproj`, `.ipa`, `.xcarchive`识别。**输入后Enter会开始识别相关内容，如果是文档路径自会识别该路径下所有可识别的文件**
@@ -85,18 +95,26 @@
 ### TODO:
 ##### 2022-08-08
 - [ ] 适配xcconfig的情况
-- [ ] 优化描述文件匹配方案
+- [x] 优化描述文件匹配方案
 - [ ] 任务进度管理器
 - [ ] 快捷键管理器
 - [ ] entitlements编辑器
-- [ ] 蒲公英应用列表
+- [x] 蒲公英应用列表
 - [ ] 错误描述中文化
 - [ ] 上传完成后通知或者脚本运行
 
 
 ### NOTE:
 
-##### 2022-88-15 v1.0.1
+##### 2022-08-31 v1.0.2
+- 新增应用发布列表管理 (支持Pgyer, Fir.im)
+
+- 更新Pgyer上传应用接口
+
+- 修复自动上传设置多发布平台导致线程group崩溃
+- 修复崩溃日志二进制列表过多导致崩溃
+
+##### 2022-08-15 v1.0.1
 - 新增因正确理解Scheme与Target关系后，解析Xcscheme以适配多Scheme多Configuration的项目～
 - 新增`archive`前是否`clean`的选项
 - 新增日志输出清空
