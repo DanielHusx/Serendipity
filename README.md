@@ -7,25 +7,39 @@
 
 #### 环境支持
 
-- macOS 11.0+
+- macOS 12.0+
 - **注意：请务必打开`完全磁盘访问权限`** ，否则管理器无法自动搜索相关文件
+
+
+
+#### [最新版本 2.0.0]([Serendipity.dmg](https://github.com/DanielHusx/Serendipity/releases/download/v2.0.0/Serendipity.dmg)) 2022-11-11
+
+光棍节发布新版本不要太栓Q我哟~ 
 
 
 
 ### 核心功能简要：
 
-- 自动打包支持`.git`, `Podfile`, `.xcworkspace`, `.xcodeproj`, `.ipa`, `.xcarchive`识别
-- 上传应用支持`蒲公英`、`Fir.im`。另：理论上支持上传至AppStore~ 嗯，理论上~
-- 描述文件管理器可管理全盘的`.mobileprovision`文件，自动解析识别已过期文件，支持搜索文件内容
-- 崩溃日志支持创建、打开与导入识别`.log`, `.crash`, `.ips`文件
-- 崩溃日志解析支持友盟、Apple Crash格式
-- 符号表管理器会自动搜索全盘`.dSYM`、`.xcarchive`文件内的可执行文件，解析其架构、UUID等内容以供崩溃日志符号化
-- 应用发布列表管理器支持`Pgyer`, `Fir.im`
+- **自动打包：**支持`.git`, `Podfile`, `.xcworkspace`, `.xcodeproj`, `.ipa`, `.xcarchive`识别
+- **应用管理/上传：**支持`蒲公英`、`Fir.im`（理论上支持上传至AppStore~ 嗯，理论上~）
+- **描述文件管理器：**可管理全盘的`.mobileprovision`文件，批量删除、添加以及查找
+- **崩溃日志管理/解析：**可创建、打开与导入识别`.log`, `.crash`, `.ips`文件；解析支持友盟、Apple Crash格式以及双JSON数据格式
+- **符号表管理**：可自动搜索全盘`.dSYM`、`.xcarchive`文件内的可执行文件，解析其架构、UUID等内容以供崩溃日志符号化
+- **符号化工具：**自定义提供符号表、起始地址以及查询地址进行符号化
+- **快捷键管理器：**自定义修改App内才能生效的快捷键
+- **自动配置iOS真机调试包：**提供`Github`上仓库真机调试压缩包下载、解压缩后移动到Xcode内（*最后需手动输入密码才能移动*）
+    - Q：你可能会问为什么不提供国内仓库源下载呢？
+    - A：说实话我也想，可满足持续更新（别指着我，更新个README就不错了，我懒得很）且能匿名访问下载的只有Github。Gitee是无法匿名下载的
+
+
+
 
 ### 相关代码
 - [ScriptSDK](https://github.com/DanielHusx/ScriptSDK): 封装脚本对象
 - [WindowManager](https://github.com/DanielHusx/WindowManagerDemo): macOS SwiftUI管理Window
 - [PathScrollView](https://github.com/DanielHusx/PathScrollView): macOS SwiftUI鼠标滚动文字
+
+
 
 ### 主页面
 
@@ -69,9 +83,10 @@
 
 
 
-### 应用发布管理
+### 应用发布管理/上传
 
 - 管理Pgyer, Fir.im发布的应用列表
+- 上传IPA文件可通过添加任务的方式 或直接将IPA文件在应用管理界面拖入最左侧栏中目标平台即可
 
 ![发布](Capture/published.png)
 
@@ -92,19 +107,42 @@
 ![config_distribution](Capture/config_distribution.jpg)
 
 
+
+### 自动配置iOS真机调试包
+
+-   检测本地版本与[Github](https://github.com/DanielHusx/DeviceSupports)上配置的版本列表后选择所需下载，下载后将自动拷贝到Xcode.app内。
+-   **注意：最后拷贝到Xcode.app内时，会提示输入密码以授权拷贝**
+
+![ios_device_support](Capture/iosdevicesupport.jpg)
+
+![ios_device_support_select](Capture/iosdevicesupport_select.jpg)
+
+
+
+
 ### TODO:
 ##### 2022-08-08
-- [ ] 适配xcconfig的情况
+- [x] 适配xcconfig的情况
 - [x] 优化描述文件匹配方案
 - [ ] 任务进度管理器
-- [ ] 快捷键管理器
+- [x] 快捷键管理器
 - [ ] entitlements编辑器
 - [x] 蒲公英应用列表
-- [ ] 错误描述中文化
+- [x] 错误描述中文化
 - [ ] 上传完成后通知或者脚本运行
 
-
 ### NOTE:
+
+##### 2022-11-11 v2.0.0
+
+-   新增快捷键管理器
+-   新增自动配置iOS真机调试包
+-   新增直接上传IPA（Pgyer, Fir.im）
+-   新增符号化工具
+-   修复发布信息设置不同步的问题
+-   适配崩溃日志双json数据格式解析
+-   一定程度上优化内存泄漏
+-   优化......balabala...
 
 ##### 2022-08-31 v1.0.2
 - 新增应用发布列表管理 (支持Pgyer, Fir.im)
@@ -128,10 +166,18 @@
 
 ##### 2022-08-04 v1.0
 
-- 七夕发布第一个版本~ 希望会有人喜欢吧
+- 七夕发布第一个版本~ （然后发现根本打不开，哈哈哈！）
 
 
 ---
 如果你觉得还不错，就赞一个啦~ 谢谢！
 
-[MIT LICENSE](LICENSE)
+
+
+### 感谢
+
+-   **[iGhibli/iOS-DeviceSupport](https://github.com/iGhibli/iOS-DeviceSupport)** iOS真机调试包收集（我生产包，我只是包的搬运工）
+
+
+
+##### [MIT LICENSE](LICENSE)
