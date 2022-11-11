@@ -13,21 +13,20 @@
 
 
 #### [最新版本 2.0.0]([Serendipity.dmg](https://github.com/DanielHusx/Serendipity/releases/download/v2.0.0/Serendipity.dmg)) 2022-11-11
-
-光棍节发布新版本不要太栓Q我哟~ 
+> 光棍节发布新版本不要太栓Q我哟~ 
 
 
 
 ### 核心功能简要：
 
-- **自动打包：**支持`.git`, `Podfile`, `.xcworkspace`, `.xcodeproj`, `.ipa`, `.xcarchive`识别
-- **应用管理/上传：**支持`蒲公英`、`Fir.im`（理论上支持上传至AppStore~ 嗯，理论上~）
-- **描述文件管理器：**可管理全盘的`.mobileprovision`文件，批量删除、添加以及查找
-- **崩溃日志管理/解析：**可创建、打开与导入识别`.log`, `.crash`, `.ips`文件；解析支持友盟、Apple Crash格式以及双JSON数据格式
+- **自动打包**：支持`.git`, `Podfile`, `.xcworkspace`, `.xcodeproj`, `.ipa`, `.xcarchive`识别
+- **应用管理/上传**：支持`蒲公英`、`Fir.im`（理论上支持上传至AppStore~ 嗯，理论上~）
+- **描述文件管理器**：可管理全盘的`.mobileprovision`文件，批量删除、添加以及查找
+- **崩溃日志管理/解析**：可创建、打开与导入识别`.log`, `.crash`, `.ips`文件；解析支持友盟、Apple Crash格式以及双JSON数据格式
 - **符号表管理**：可自动搜索全盘`.dSYM`、`.xcarchive`文件内的可执行文件，解析其架构、UUID等内容以供崩溃日志符号化
-- **符号化工具：**自定义提供符号表、起始地址以及查询地址进行符号化
-- **快捷键管理器：**自定义修改App内才能生效的快捷键
-- **自动配置iOS真机调试包：**提供`Github`上仓库真机调试压缩包下载、解压缩后移动到Xcode内（*最后需手动输入密码才能移动*）
+- **符号化工具**：自定义提供符号表、起始地址以及查询地址进行符号化
+- **快捷键管理器**：自定义修改App内才能生效的快捷键
+- **自动配置iOS真机调试包**：提供`Github`上仓库真机调试压缩包下载、解压缩后移动到Xcode内（*最后需手动输入密码才能移动*）
     - Q：你可能会问为什么不提供国内仓库源下载呢？
     - A：说实话我也想，可满足持续更新（别指着我，更新个README就不错了，我懒得很）且能匿名访问下载的只有Github。Gitee是无法匿名下载的
 
@@ -176,7 +175,7 @@
 
 ### 感谢
 
--   **[iGhibli/iOS-DeviceSupport](https://github.com/iGhibli/iOS-DeviceSupport)** iOS真机调试包收集（我生产包，我只是包的搬运工）
+-   **[iGhibli/iOS-DeviceSupport](https://github.com/iGhibli/iOS-DeviceSupport)** iOS真机调试包收集（我不生产包，我只是包的搬运工）
 
 
 
