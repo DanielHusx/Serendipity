@@ -12,7 +12,7 @@
 
 
 
-#### [最新版本 2.0.0]([Serendipity.dmg](https://github.com/DanielHusx/Serendipity/releases/download/v2.0.0/Serendipity.dmg)) 2022-11-11
+#### [最新版本 2.0.0](https://github.com/DanielHusx/Serendipity/releases/download/v2.0.0/Serendipity.dmg) 2022-11-11
 > 光棍节发布新版本不要太栓Q我哟~ 
 
 
