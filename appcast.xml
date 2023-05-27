@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Serendipity</title>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Fri, 26 May 2023 16:36:39 +0800</pubDate>
+            <sparkle:releaseNotesLink>https://github.com/DanielHusx/Serendipity/releases/tag/v2.0.0</sparkle:releaseNotesLink>
+            <sparkle:fullReleaseNotesLink>https://github.com/DanielHusx/Serendipity/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/DanielHusx/Serendipity/releases/download/v2.0.0/Serendipity.dmg" type="application/octet-stream" sparkle:edSignature="soDNAuQxiQsqvDo2AWwN/XAR+b/CPLHV2dwqYEMyOgmoKXxTL0fUpNysG7ONPlQ1NHVIbB7w/TM5/RM1mT8ABw==" length="6852908"/>
+        </item>
+    </channel>
+</rss>
