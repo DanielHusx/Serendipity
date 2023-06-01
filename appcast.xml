@@ -3,6 +3,17 @@
     <channel>
         <title>Serendipity</title>
         <item>
+            <title>2.1.0</title>
+            <pubDate>Thu, 01 Jun 2023 16:21:23 +0800</pubDate>
+            <sparkle:releaseNotesLink>https://github.com/DanielHusx/Serendipity/releases/tag/v2.1.0</sparkle:releaseNotesLink>
+            <sparkle:fullReleaseNotesLink>https://github.com/DanielHusx/Serendipity/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>20230601</sparkle:version>
+            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/DanielHusx/Serendipity/releases/download/v2.1.0/Serendipity.dmg" type="application/octet-stream" sparkle:edSignature="gte+7VkT6WRgU1G3XNBvQ2aweL7Vj90TGQ5AysVCIiN6otwxSKc57lIaXr58xokQlnFdI5ghPrarNlszdf5cCA==" length="8213194"/>
+        </item>
+        <title>Serendipity</title>
+        <item>
             <title>2.0.0</title>
             <pubDate>Fri, 26 May 2023 16:36:39 +0800</pubDate>
             <sparkle:releaseNotesLink>https://github.com/DanielHusx/Serendipity/releases/tag/v2.0.0</sparkle:releaseNotesLink>

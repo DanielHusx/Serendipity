@@ -16,9 +16,9 @@ The code is mainly written in SwiftUI, pure local tool management application
 
 
 
-#### [The latest v2.0.0](https://github.com/DanielHusx/Serendipity/releases/download/v2.0.0/Serendipity.dmg) 2022-11-11
+#### [The latest v2.1.0](https://github.com/DanielHusx/Serendipity/releases/download/v2.1.0/Serendipity.dmg) 2023-06-01
 
-Singles' Day releases a new version, don't be too tied to Thanks me~
+Children's Day released a new version I am a big kid~
 
 
 
@@ -145,6 +145,18 @@ Singles' Day releases a new version, don't be too tied to Thanks me~
 - [ ] Notify or script to run when upload is complete
 
 ### NOTE:
+
+##### 2023-06-01 v2.1.0
+
+-   Added a dark mode switch
+- Added version update function
+- Added language switching function (supports Chinese/English switching)
+- Optimize symbolization tools
+- Optimize symbol table management page freeze
+- Optimize caching of AsyncImage
+- Optimized the problem of CPU surge caused by crash log
+- Optimize crash log management and parse double JSON
+- Optimize code to a certain extent...in theory~
 
 ##### 2022-11-11 v2.0.0
 

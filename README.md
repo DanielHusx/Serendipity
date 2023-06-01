@@ -16,9 +16,9 @@
 
 
 
-#### [最新版本 2.0.0](https://github.com/DanielHusx/Serendipity/releases/download/v2.0.0/Serendipity.dmg) 2022-11-11
+#### [最新版本 2.1.0](https://github.com/DanielHusx/Serendipity/releases/download/v2.1.0/Serendipity.dmg) 2023-06-01
 
-光棍节发布新版本不要太栓Q我哟~ 
+儿童节发布新版本~ 哎~就是玩儿 
 
 
 
@@ -145,6 +145,18 @@
 - [ ] 上传完成后通知或者脚本运行
 
 ### NOTE:
+
+##### 2023-06-01 v2.1.0
+
+-   新增暗黑模式切换
+-   新增版本更新功能
+-   新增语言切换功能（支持中/英文切换）
+-   优化符号化工具
+-   优化符号表管理页卡顿
+-   优化缓存AsyncImage
+-   优化崩溃日志导致CPU暴增的问题
+-   优化崩溃日志管理解析双JSON
+-   一定程度上的优化代码......理论上～
 
 ##### 2022-11-11 v2.0.0
 
