@@ -14,9 +14,16 @@
 - 一定程度上优化了卡顿问题，再接再厉~💪🏻</description>
             <sparkle:fullReleaseNotesLink>https://github.com/DanielHusx/Serendipity/releases</sparkle:fullReleaseNotesLink>
             <sparkle:version>20230718</sparkle:version>
-            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/DanielHusx/Serendipity/releases/download/v2.1.1/Serendipity.dmg" type="application/octet-stream" sparkle:edSignature="mKU4YQZr+neq3+pZgEXTdjDLoflsqVIEK7BXIRm8+GW+iN2SRJfkr2P/eQ/SXCJyqErQKODjrQ9nl8A1OqXlBw==" length="8956080"/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/DanielHusx/Serendipity/releases/download/v2.1.1/Serendipity2.1.0_to_2.1.1.delta"
+                           sparkle:deltaFrom="2.1.0"
+                           type="application/octet-stream"
+                           sparkle:edSignature="JdG8+EjcZIMNBr7eM/dgSLkI6WuNG9GT7HuOzfLQzefbjRTChuqPTh/BJdsipyU28GW/8noBVf2IRzOCW9F9BA=="
+                           length="1779402"/>
+            </sparkle:deltas>
         </item>
         <title>Serendipity</title>
         <item>

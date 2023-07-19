@@ -16,9 +16,7 @@ The code is mainly written in SwiftUI, pure local tool management application
 
 
 
-#### [The latest v2.1.0](https://github.com/DanielHusx/Serendipity/releases/download/v2.1.0/Serendipity.dmg) 2023-06-01
-
-Children's Day released a new version I am a big kid~
+#### [The latest v2.1.1](https://github.com/DanielHusx/Serendipity/releases/download/v2.1.1/Serendipity.dmg) 2023-07-19
 
 
 
@@ -69,6 +67,8 @@ Children's Day released a new version I am a big kid~
 - Due to the large amount of symbols, the display is rough~ hehe
 
 ![symbol](Capture/symbol.jpg)
+
+![symbol](Capture/symbol_search.jpg)
 
 
 
@@ -145,6 +145,18 @@ Children's Day released a new version I am a big kid~
 - [ ] Notify or script to run when upload is complete
 
 ### NOTE:
+
+##### 2023-07-19 v2.1.1
+
+-   全新符号表管理器（理论上更丝滑）
+
+-   新增导入文件错误提示
+
+-   新增崩溃日志镜像采用弹窗显示，并支持手动导入
+
+-   新增适配MacOS描述文件识别解析
+
+-   一定程度上优化了卡顿问题，再接再厉~💪🏻
 
 ##### 2023-06-01 v2.1.0
 
