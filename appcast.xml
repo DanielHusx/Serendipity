@@ -3,6 +3,24 @@
     <channel>
         <title>Serendipity</title>
         <item>
+            <title>2.1.1</title>
+            <pubDate>Wed, 19 Jul 2023 10:58:06 +0800</pubDate>
+            <description sparkle:format="plain-text">
+                - 全新符号表管理器（理论上更丝滑）
+
+                - 新增导入文件错误提示
+                - 新增崩溃日志镜像采用弹窗显示，并支持手动导入
+                - 新增适配MacOS描述文件识别解析
+
+                - 一定程度上优化了卡顿问题，再接再厉~💪🏻</description>
+            <sparkle:fullReleaseNotesLink>https://github.com/DanielHusx/Serendipity/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>20230718</sparkle:version>
+            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/DanielHusx/Serendipity/releases/download/v2.1.1/Serendipity.dmg" type="application/octet-stream" sparkle:edSignature="mKU4YQZr+neq3+pZgEXTdjDLoflsqVIEK7BXIRm8+GW+iN2SRJfkr2P/eQ/SXCJyqErQKODjrQ9nl8A1OqXlBw==" length="8956080"/>
+        </item>
+        <title>Serendipity</title>
+        <item>
             <title>2.1.0</title>
             <pubDate>Thu, 01 Jun 2023 16:21:23 +0800</pubDate>
             <sparkle:releaseNotesLink>https://github.com/DanielHusx/Serendipity/releases/tag/v2.1.0</sparkle:releaseNotesLink>
